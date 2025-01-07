@@ -1,5 +1,4 @@
-# C8-CRUNCH-LABS-WEB-DEV
-## Web Development 101: Introduction to HTML, CSS, and JavaScript 📱💻
+# C8-CRUNCH-LABS-WEB-DEV: Web Development 101: Introduction to HTML, CSS, and JavaScript 📱💻
 
 Welcome to the **C8 - Web Development Section 1** course, hosted by the **Code Crunch Student Organization** at **Florida International University**! 🐯 This course will teach you the foundational skills needed to build and launch your own websites using HTML, CSS, and JavaScript, with some fun interactive elements! 🚀
 
