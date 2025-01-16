@@ -1,10 +1,10 @@
 # Week 0: Introduction to Web Development 🌐
 
 
-## Topic: Introduction to Web Development
+## Topic: C8 - Introduction to Web Development
 - **Week Dates:** January 6, 2025 - January 10, 2025
-- **Unit:** Week 0 - Overview of C8 and TryHackme
-- **Link to Slides:** [Week 0 - C6 _ Cyber Crunch.pptx](https://docs.google.com/presentation/d/1Y9U3DV1wzaS1RAn7uASceMV9Ozl7Am9g/edit?usp=drive_link&ouid=102690827101306728538&rtpof=true&sd=true)
+- **Unit:** Week 0 - Overview of C8
+- **Link to Slides:** [Week 0 - C8 Intro to Web Development.pptx](https://docs.google.com/presentation/d/1Y9U3DV1wzaS1RAn7uASceMV9Ozl7Am9g/edit?usp=drive_link&ouid=102690827101306728538&rtpof=true&sd=true)
 
 ---
 
