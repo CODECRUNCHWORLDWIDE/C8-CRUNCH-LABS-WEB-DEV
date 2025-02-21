@@ -1,6 +1,4 @@
-# README: Adding Logic to JavaScript Code for Dynamic Web Interactions (Week 6)
-
-## 🖥️ Welcome to Week #6 of Web Development at CODE.CRUNCH!
+# 🖥️ Welcome to Week #6 of Web Development at CODE.CRUNCH!
 
 This week, we're going to make your JavaScript code even more powerful by adding **logic** with **loops** and **conditionals**. These tools are essential for building dynamic, interactive web pages that respond to user actions!
 
