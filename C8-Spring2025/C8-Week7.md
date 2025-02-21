@@ -1,6 +1,4 @@
-# README: Adding Dynamic Visuals and Interactions to Your Website (Week 7)
-
-## 🚀 Welcome to Week #7 of Web Development at CODE.CRUNCH!
+# 🚀 Welcome to Week #7 of Web Development at CODE.CRUNCH!
 
 This week, we’re taking your web development skills to the next level with **CSS Animations**, **Transitions**, and **Advanced DOM Manipulation using JavaScript**. These techniques will help you create **dynamic, interactive, and visually engaging** websites that offer a seamless user experience.
 
