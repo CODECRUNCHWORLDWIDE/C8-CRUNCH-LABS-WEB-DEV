@@ -1,6 +1,4 @@
-# README: Introduction to Web Development (Week 4)
-
-## 🚀 Welcome to Week #4 of Web Development at CODE.CRUNCH!
+# 🚀 Welcome to Week #4 of Web Development at CODE.CRUNCH!
 
 This week, we're diving into the world of **JavaScript** and **DOM manipulation** to unlock the power of interactivity on websites! 🌐 Let's break it down, explore the core concepts, and set the stage for hands-on coding.
 
