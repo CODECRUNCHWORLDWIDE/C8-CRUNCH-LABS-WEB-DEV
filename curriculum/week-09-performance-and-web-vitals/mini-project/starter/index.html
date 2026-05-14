@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Slow Gallery — week 9 mini-project starter</title>
+
+  <!-- SLOW #1: A 200 KB analytics script loaded synchronously in the head.
+       It blocks the parser for 200–400 ms while it parses and executes.
+       Fix: defer it, async it, or remove it. -->
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.js"></script>
+
+  <!-- SLOW #2: A synchronous inline script with a busy-wait. Blocks the parser
+       for ~400 ms before the rest of the document can be parsed.
+       Fix: remove it, move it to the bottom, or wrap it in a deferred function. -->
+  <script>
+    (function () {
+      var start = Date.now();
+      while (Date.now() - start < 400) {
+        // busy-wait — pretend we're "initializing" something
+      }
+    })();
+  </script>
+
+  <!-- SLOW #3: Render-blocking external CSS. The stylesheet has ~1500 unused
+       rules (see styles.css). The browser cannot paint anything until this is
+       fetched and parsed.
+       Fix: remove unused rules, inline critical CSS, or preload + onload trick. -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- SLOW #4: Google Fonts loaded via the CSS API. Two extra origins, no
+       preload of the font file. When the font arrives, it swaps and causes
+       a small layout shift.
+       Fix: self-host woff2, preload it, or use font-display: optional. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400&display=swap">
+</head>
+<body>
+  <header>
+    <h1>The Slow Gallery</h1>
+    <p class="tagline">A deliberately-broken page for the Week 9 audit.</p>
+  </header>
+
+  <main>
+    <!-- SLOW #5: The LCP candidate has loading="lazy" — the browser will
+         deprioritize it. It also has no width/height, causing a large CLS
+         when it arrives. There is no <link rel="preload"> for it either.
+         Fix: remove loading="lazy", add width/height, add fetchpriority="high",
+         add <link rel="preload"> in head. -->
+    <img
+      class="hero"
+      src="https://picsum.photos/1200/600?random=51"
+      alt="A hero photo"
+      loading="lazy">
+
+    <p class="lede">A short introductory paragraph that the user reads while the page is still loading. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <!-- SLOW #6: An empty ad slot that fills 1500 ms after load (see app.js).
+         No reserved height; it shifts everything below when filled.
+         Fix: reserve space via min-height or aspect-ratio. -->
+    <div class="ad-slot" id="ad-slot">Loading sponsored content...</div>
+
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+
+    <!-- SLOW #7: A video iframe with no aspect-ratio reservation. Loads its
+         src 2500 ms after load and shifts content. about:blank initially.
+         Fix: width/height attributes or aspect-ratio CSS. -->
+    <iframe id="video" src="about:blank" title="A demo video frame"></iframe>
+
+    <h2>Gallery</h2>
+    <p>Twelve thumbnails below. Notice they are eagerly loaded even though most are below the fold.</p>
+
+    <!-- SLOW #8: Every grid image is eager and at full resolution (1600x1200
+         source served into a 280-wide slot). Major bandwidth and CLS waste.
+         Fix: loading="lazy", decoding="async", width/height, srcset for
+         right-sizing, AVIF/WebP for format. -->
+    <section class="grid" id="grid">
+      <img src="https://picsum.photos/1600/1200?random=61" alt="">
+      <img src="https://picsum.photos/1600/1200?random=62" alt="">
+      <img src="https://picsum.photos/1600/1200?random=63" alt="">
+      <img src="https://picsum.photos/1600/1200?random=64" alt="">
+      <img src="https://picsum.photos/1600/1200?random=65" alt="">
+      <img src="https://picsum.photos/1600/1200?random=66" alt="">
+      <img src="https://picsum.photos/1600/1200?random=67" alt="">
+      <img src="https://picsum.photos/1600/1200?random=68" alt="">
+      <img src="https://picsum.photos/1600/1200?random=69" alt="">
+      <img src="https://picsum.photos/1600/1200?random=70" alt="">
+      <img src="https://picsum.photos/1600/1200?random=71" alt="">
+      <img src="https://picsum.photos/1600/1200?random=72" alt="">
+    </section>
+
+    <!-- SLOW #9: The "Load 1000 more" button. The handler in app.js
+         synchronously appends 1000 nodes in a tight loop, producing an
+         INP around 600–900 ms.
+         Fix: chunk the work with requestIdleCallback, useDeferredValue if
+         this were React, or scheduler.yield() in modern Chrome. -->
+    <button id="load-more" type="button">Load 1000 more</button>
+  </main>
+
+  <footer>
+    <p>End of slow gallery. Make me fast.</p>
+  </footer>
+
+  <!-- SLOW #10: A synchronous script at the bottom that does some non-trivial
+       DOM work on every load. Not parser-blocking (parser is already done by
+       this point) but contributes to TBT and INP-budget at boot.
+       Fix: defer, async, or remove. -->
+  <script src="app.js"></script>
+</body>
+</html>
