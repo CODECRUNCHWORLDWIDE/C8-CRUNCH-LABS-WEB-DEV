@@ -1,0 +1,45 @@
+# Week 10 Mini-Project — Keycloak in Docker
+#
+# Usage:
+#   docker compose up -d
+#   # wait ~30 seconds for Keycloak to start
+#   # open http://localhost:8080/ — should show the welcome page
+#   # admin console: http://localhost:8080/admin/  (admin / admin)
+#
+# This compose file imports the seeded realm at startup. The realm-export.json
+# file lives in ./keycloak/ and is mounted into the container's import
+# directory. The --import-realm flag on the Keycloak start-dev command triggers
+# the import.
+#
+# This is a DEVELOPMENT-mode Keycloak. Do not deploy `start-dev` to production —
+# it disables HTTPS enforcement, cluster setup, and other safeguards. For
+# production use, see the Keycloak docs at
+# https://www.keycloak.org/server/configuration.
+
+services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:25.0
+    container_name: crunch-keycloak-w10
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+      KC_HEALTH_ENABLED: "true"
+      KC_METRICS_ENABLED: "true"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./keycloak/realm-export.json:/opt/keycloak/data/import/realm-export.json:ro
+    command:
+      - start-dev
+      - --import-realm
+    healthcheck:
+      test: ["CMD-SHELL", "exec 3<>/dev/tcp/localhost/8080 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+# The mini-project's mock resource server runs as a sibling Node process
+# (see resource-server.js and the mini-project README). It is not in this
+# compose file because students will want to log its output to their terminal
+# while debugging.

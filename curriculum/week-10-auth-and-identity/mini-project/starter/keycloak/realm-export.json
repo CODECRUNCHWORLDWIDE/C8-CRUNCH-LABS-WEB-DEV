@@ -1,0 +1,138 @@
+{
+  "realm": "crunch",
+  "displayName": "Crunch Realm (W10 Mini-Project)",
+  "enabled": true,
+  "registrationAllowed": false,
+  "rememberMe": false,
+  "verifyEmail": false,
+  "loginWithEmailAllowed": true,
+  "duplicateEmailsAllowed": false,
+  "resetPasswordAllowed": false,
+  "editUsernameAllowed": false,
+  "bruteForceProtected": true,
+  "failureFactor": 5,
+  "waitIncrementSeconds": 60,
+
+  "accessTokenLifespan": 300,
+  "accessTokenLifespanForImplicitFlow": 300,
+  "refreshTokenMaxReuse": 0,
+  "revokeRefreshToken": true,
+  "ssoSessionIdleTimeout": 1800,
+  "ssoSessionMaxLifespan": 36000,
+  "offlineSessionIdleTimeout": 2592000,
+  "actionTokenGeneratedByUserLifespan": 300,
+
+  "defaultSignatureAlgorithm": "RS256",
+  "passwordPolicy": "length(8)",
+
+  "otpPolicyType": "totp",
+  "otpPolicyAlgorithm": "HmacSHA1",
+  "otpPolicyDigits": 6,
+  "otpPolicyPeriod": 30,
+  "otpPolicyLookAheadWindow": 1,
+  "otpPolicyInitialCounter": 0,
+
+  "clients": [
+    {
+      "clientId": "spa-client",
+      "name": "Week 10 SPA Client",
+      "description": "Public client. PKCE required. Refresh-token rotation enabled.",
+      "enabled": true,
+      "publicClient": true,
+      "standardFlowEnabled": true,
+      "implicitFlowEnabled": false,
+      "directAccessGrantsEnabled": false,
+      "serviceAccountsEnabled": false,
+      "frontchannelLogout": true,
+      "rootUrl": "http://localhost:5173",
+      "baseUrl": "http://localhost:5173/",
+      "redirectUris": [
+        "http://localhost:5173/callback",
+        "http://localhost:5173/silent-renew.html",
+        "http://localhost:5173/"
+      ],
+      "webOrigins": [
+        "http://localhost:5173",
+        "+"
+      ],
+      "attributes": {
+        "pkce.code.challenge.method": "S256",
+        "post.logout.redirect.uris": "http://localhost:5173/*",
+        "access.token.lifespan": "300",
+        "client.secret.creation.time": "0"
+      },
+      "protocol": "openid-connect",
+      "fullScopeAllowed": false,
+      "defaultClientScopes": [
+        "openid",
+        "profile",
+        "email",
+        "roles",
+        "web-origins"
+      ],
+      "optionalClientScopes": [
+        "address",
+        "phone",
+        "offline_access"
+      ]
+    }
+  ],
+
+  "users": [
+    {
+      "username": "alice",
+      "email": "alice@example.com",
+      "firstName": "Alice",
+      "lastName": "Example",
+      "enabled": true,
+      "emailVerified": false,
+      "credentials": [
+        {
+          "type": "password",
+          "value": "alice-password",
+          "temporary": false
+        }
+      ],
+      "requiredActions": [
+        "CONFIGURE_TOTP"
+      ],
+      "realmRoles": [
+        "default-roles-crunch",
+        "user"
+      ]
+    },
+    {
+      "username": "bob",
+      "email": "bob@example.com",
+      "firstName": "Bob",
+      "lastName": "Example",
+      "enabled": true,
+      "emailVerified": false,
+      "credentials": [
+        {
+          "type": "password",
+          "value": "bob-password",
+          "temporary": false
+        }
+      ],
+      "realmRoles": [
+        "default-roles-crunch",
+        "user",
+        "admin"
+      ]
+    }
+  ],
+
+  "roles": {
+    "realm": [
+      {
+        "name": "user",
+        "description": "Default authenticated user role"
+      },
+      {
+        "name": "admin",
+        "description": "Realm administrator role for the /admin route (Homework Problem 6)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "realm": "crunch",
+  "displayName": "Crunch Realm (W10 Exercise)",
+  "enabled": true,
+  "registrationAllowed": false,
+  "rememberMe": false,
+  "verifyEmail": false,
+  "loginWithEmailAllowed": true,
+  "duplicateEmailsAllowed": false,
+  "resetPasswordAllowed": false,
+  "editUsernameAllowed": false,
+  "bruteForceProtected": true,
+
+  "accessTokenLifespan": 300,
+  "accessTokenLifespanForImplicitFlow": 300,
+  "refreshTokenMaxReuse": 0,
+  "revokeRefreshToken": true,
+  "ssoSessionIdleTimeout": 1800,
+  "ssoSessionMaxLifespan": 36000,
+  "offlineSessionIdleTimeout": 2592000,
+
+  "defaultSignatureAlgorithm": "RS256",
+
+  "passwordPolicy": "length(8)",
+
+  "clients": [
+    {
+      "clientId": "spa-client",
+      "name": "Week 10 SPA client",
+      "description": "Public client for the W10 exercises and mini-project. PKCE required.",
+      "enabled": true,
+      "publicClient": true,
+      "standardFlowEnabled": true,
+      "implicitFlowEnabled": false,
+      "directAccessGrantsEnabled": false,
+      "serviceAccountsEnabled": false,
+      "frontchannelLogout": true,
+      "rootUrl": "http://localhost:5173",
+      "baseUrl": "http://localhost:5173/",
+      "redirectUris": [
+        "http://localhost:5173/callback",
+        "http://localhost:5173/silent-renew.html",
+        "http://localhost:5173/"
+      ],
+      "webOrigins": [
+        "http://localhost:5173",
+        "+"
+      ],
+      "attributes": {
+        "pkce.code.challenge.method": "S256",
+        "post.logout.redirect.uris": "http://localhost:5173/*",
+        "access.token.lifespan": "300"
+      },
+      "protocol": "openid-connect",
+      "fullScopeAllowed": false,
+      "defaultClientScopes": [
+        "openid",
+        "profile",
+        "email",
+        "roles",
+        "web-origins"
+      ],
+      "optionalClientScopes": [
+        "address",
+        "phone",
+        "offline_access"
+      ]
+    }
+  ],
+
+  "users": [
+    {
+      "username": "alice",
+      "email": "alice@example.com",
+      "firstName": "Alice",
+      "lastName": "Example",
+      "enabled": true,
+      "emailVerified": false,
+      "credentials": [
+        {
+          "type": "password",
+          "value": "alice-password",
+          "temporary": false
+        }
+      ],
+      "realmRoles": [
+        "default-roles-crunch"
+      ]
+    }
+  ],
+
+  "roles": {
+    "realm": [
+      {
+        "name": "user",
+        "description": "Default authenticated user role"
+      },
+      {
+        "name": "admin",
+        "description": "Realm administrator (not used in W10)"
+      }
+    ]
+  }
+}
