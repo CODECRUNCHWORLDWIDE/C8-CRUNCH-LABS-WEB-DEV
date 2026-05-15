@@ -1,0 +1,31 @@
+# docker-compose.yml
+#
+# Same Keycloak setup from Week 10. Brought forward so this week's e2e tests
+# have an OIDC provider to authenticate against.
+#
+# Bring up:    docker compose up -d
+# Tear down:   docker compose down
+# Logs:        docker compose logs -f keycloak
+
+services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:25.0
+    container_name: c8-w11-keycloak
+    command:
+      - start-dev
+      - --import-realm
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+      KC_HOSTNAME_STRICT: false
+      KC_HTTP_ENABLED: true
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./keycloak/realm-export.json:/opt/keycloak/data/import/realm.json:ro
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:8080/realms/crunch/.well-known/openid-configuration']
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
