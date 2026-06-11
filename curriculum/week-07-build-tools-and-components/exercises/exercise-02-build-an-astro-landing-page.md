@@ -179,7 +179,7 @@ const projects = [
   <section class="hero">
     <h1>Hello, I am building things on the web.</h1>
     <p class="lede">
-      This portfolio is the running deliverable of <a href="https://github.com/CODE-CRUNCH-WORLDWIDE">Code Crunch Worldwide's</a> C8 web-development curriculum.
+      This portfolio is the running deliverable of <a href="https://github.com/CODECRUNCHWORLDWIDE">Code Crunch Worldwide's</a> C8 web-development curriculum.
       Each project below was shipped at the end of a course week.
     </p>
   </section>
