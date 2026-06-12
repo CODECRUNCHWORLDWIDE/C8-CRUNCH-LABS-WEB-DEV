@@ -1,0 +1,717 @@
+{
+  "repo": "C8-CRUNCH-LABS-WEB-DEV",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "title": "Contributor Covenant Code of Conduct"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "title": "Contributing to Crunch Labs Web Dev"
+    },
+    {
+      "path": "README.md",
+      "title": "C8-CRUNCH-LABS-WEB-DEV Introduction to HTML, CSS, and JavaScript \ud83d\udcf1\ud83d\udcbb"
+    },
+    {
+      "path": "assets/branding/BRAND.md",
+      "title": "C8 \u00b7 Crunch Labs \u2014 Web Dev \u00b7 Brand Guide"
+    },
+    {
+      "path": "curriculum/SYLLABUS.md",
+      "title": "C8 \u00b7 Crunch Labs \u2014 Web Dev \u00b7 Syllabus"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/README.md",
+      "title": "Week 1 \u2014 Semantic HTML"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/challenges/README.md",
+      "title": "Week 1 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/challenges/challenge-01-recreate-a-real-page.md",
+      "title": "Challenge 1 \u2014 Recreate a real news article in semantic HTML"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/exercises/README.md",
+      "title": "Week 1 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/exercises/exercise-01-build-a-real-page.md",
+      "title": "Exercise 1 \u2014 Build a real page"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/exercises/exercise-02-fix-the-bad-html.md",
+      "title": "Exercise 2 \u2014 Fix the bad HTML"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/exercises/exercise-03-validate-and-audit.md",
+      "title": "Exercise 3 \u2014 Validate and audit"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/homework.md",
+      "title": "Week 1 Homework"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/lecture-notes/01-what-html-actually-is.md",
+      "title": "Lecture 1 \u2014 What HTML Actually Is"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/lecture-notes/02-semantics-headings-landmarks-a11y.md",
+      "title": "Lecture 2 \u2014 Semantics, Headings, Landmarks, Accessibility"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/mini-project/README.md",
+      "title": "Mini-Project \u2014 A 5-page personal site, semantic HTML only"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/quiz.md",
+      "title": "Week 1 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-01-semantic-html/resources.md",
+      "title": "Week 1 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/README.md",
+      "title": "Week 2 \u2014 Modern CSS"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/challenges/README.md",
+      "title": "Week 2 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/challenges/challenge-01-recreate-a-magazine-spread.md",
+      "title": "Challenge 1 \u2014 Recreate a magazine spread in HTML and CSS"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/exercises/README.md",
+      "title": "Week 2 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/exercises/exercise-01-style-week1-page.md",
+      "title": "Exercise 1 \u2014 Style your Week 1 essay page"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/exercises/exercise-02-fluid-typography.md",
+      "title": "Exercise 2 \u2014 Fluid typography"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/exercises/exercise-03-custom-properties-theme.md",
+      "title": "Exercise 3 \u2014 Custom-properties theme"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/homework.md",
+      "title": "Week 2 Homework"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/lecture-notes/01-the-cascade-specificity-inheritance.md",
+      "title": "Lecture 1 \u2014 The Cascade, Specificity, Inheritance"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/lecture-notes/02-custom-properties-color-typography.md",
+      "title": "Lecture 2 \u2014 Custom Properties, Color, Typography"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/mini-project/README.md",
+      "title": "Mini-Project \u2014 Style your Week-1 personal site"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/quiz.md",
+      "title": "Week 2 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-02-modern-css/resources.md",
+      "title": "Week 2 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/README.md",
+      "title": "Week 3 \u2014 Layout & Responsiveness"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/challenges/README.md",
+      "title": "Week 3 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/challenges/challenge-01-recreate-a-news-homepage.md",
+      "title": "Challenge 1 \u2014 Recreate a news homepage"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/exercises/README.md",
+      "title": "Week 3 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/exercises/exercise-01-card-grid.md",
+      "title": "Exercise 1 \u2014 A responsive card grid"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/exercises/exercise-02-holy-grail-layout.md",
+      "title": "Exercise 2 \u2014 The holy-grail layout"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/exercises/exercise-03-fluid-image-gallery.md",
+      "title": "Exercise 3 \u2014 A fluid image gallery"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/homework.md",
+      "title": "Week 3 Homework"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/lecture-notes/01-flexbox-mental-model.md",
+      "title": "Lecture 1 \u2014 The Flexbox Mental Model"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/lecture-notes/02-grid-and-when-to-use-which.md",
+      "title": "Lecture 2 \u2014 Grid, and When to Use Which"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/mini-project/README.md",
+      "title": "Mini-Project \u2014 Make your Week-1 site fully responsive from 320 px to 1440 px"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/quiz.md",
+      "title": "Week 3 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-03-layout-responsiveness/resources.md",
+      "title": "Week 3 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/README.md",
+      "title": "Week 4 \u2014 JavaScript Fundamentals"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/challenges/README.md",
+      "title": "Week 4 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/challenges/challenge-01-build-a-todo-app-no-framework.md",
+      "title": "Challenge 1 \u2014 Build a to-do app, no framework"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/exercises/README.md",
+      "title": "Week 4 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/exercises/exercise-01-types-and-truthiness.md",
+      "title": "Exercise 1 \u2014 Types and truthiness"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/exercises/exercise-02-functions-and-closures.md",
+      "title": "Exercise 2 \u2014 Functions and closures"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/exercises/exercise-03-modules.md",
+      "title": "Exercise 3 \u2014 Modules"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/homework.md",
+      "title": "Week 4 Homework"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/lecture-notes/01-types-control-flow-functions.md",
+      "title": "Lecture 1 \u2014 Types, Control Flow, Functions"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/lecture-notes/02-scope-closures-and-modules.md",
+      "title": "Lecture 2 \u2014 Scope, Closures, and Modules"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/mini-project/README.md",
+      "title": "Mini-Project \u2014 A vanilla-JS to-do list with `localStorage` persistence"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/quiz.md",
+      "title": "Week 4 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-04-javascript-fundamentals/resources.md",
+      "title": "Week 4 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/README.md",
+      "title": "Week 5 \u2014 The DOM, Events, and Accessibility"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/challenges/README.md",
+      "title": "Week 5 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/challenges/challenge-01-aria-rich-listbox.md",
+      "title": "Challenge 1 \u2014 ARIA-rich listbox"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/exercises/README.md",
+      "title": "Week 5 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/exercises/exercise-01-query-and-mutate.md",
+      "title": "Exercise 1 \u2014 Query and Mutate"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/exercises/exercise-02-event-delegation.md",
+      "title": "Exercise 2 \u2014 Event Delegation"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/exercises/exercise-03-keyboard-navigable-dropdown.md",
+      "title": "Exercise 3 \u2014 Keyboard-Navigable Dropdown (the disclosure warm-up)"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/homework.md",
+      "title": "Week 5 Homework"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/lecture-notes/01-the-dom-tree-and-querying.md",
+      "title": "Lecture 1 \u2014 The DOM Tree and Querying"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/lecture-notes/02-events-delegation-and-focus.md",
+      "title": "Lecture 2 \u2014 Events, Delegation, and Focus"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/mini-project/README.md",
+      "title": "Mini-Project \u2014 An accessible custom dropdown, keyboard-navigable, screen-reader tested"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/quiz.md",
+      "title": "Week 5 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-05-dom-events-accessibility/resources.md",
+      "title": "Week 5 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/README.md",
+      "title": "Week 6 \u2014 Forms and Validation"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/challenges/README.md",
+      "title": "Week 6 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/challenges/challenge-01-multi-step-form-with-state.md",
+      "title": "Challenge 1 \u2014 Multi-step form with state"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/exercises/README.md",
+      "title": "Week 6 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/exercises/exercise-01-html5-only-validation.md",
+      "title": "Exercise 1 \u2014 HTML5-only validation"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/exercises/exercise-02-js-validation-layer.md",
+      "title": "Exercise 2 \u2014 JS validation layer"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/exercises/exercise-03-error-messaging-a11y.md",
+      "title": "Exercise 3 \u2014 Error messaging and accessibility"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/homework.md",
+      "title": "Week 6 Homework"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/lecture-notes/01-html5-form-semantics.md",
+      "title": "Lecture 1 \u2014 HTML5 Form Semantics"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/lecture-notes/02-validation-error-messaging-autofill.md",
+      "title": "Lecture 2 \u2014 Validation, Error Messaging, and Autofill"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/mini-project/README.md",
+      "title": "Mini-Project \u2014 A multi-step signup form with real-time validation and accessible error messaging"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/quiz.md",
+      "title": "Week 6 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-06-forms-validation/resources.md",
+      "title": "Week 6 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/README.md",
+      "title": "Week 7 \u2014 Build Tools and Components"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/challenges/challenge-01-bundle-size-budget.md",
+      "title": "Challenge 1 \u2014 Bundle Size Budget"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/challenges/challenge-02-astro-with-react-island.md",
+      "title": "Challenge 2 \u2014 Astro with a React Island"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/exercises/SOLUTIONS.md",
+      "title": "Exercise Solutions \u2014 Week 7"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/exercises/exercise-01-bootstrap-a-vite-app.md",
+      "title": "Exercise 1 \u2014 Bootstrap a Vite App"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/exercises/exercise-02-build-an-astro-landing-page.md",
+      "title": "Exercise 2 \u2014 Build an Astro Landing Page"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/homework.md",
+      "title": "Week 7 \u2014 Homework"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/lecture-notes/01-from-script-tags-to-modules.md",
+      "title": "Lecture 1 \u2014 From Script Tags to Modules: A Working History of the Front-End Build Step"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/lecture-notes/02-astro-pages-and-islands.md",
+      "title": "Lecture 2 \u2014 Astro Pages and Islands: File-Based Routing and Partial Hydration"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/lecture-notes/03-react-components-without-the-religion.md",
+      "title": "Lecture 3 \u2014 React Components Without the Religion"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/mini-project/README.md",
+      "title": "Week 7 \u2014 Mini-Project: A 4-Page Astro Site with One React Island"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/quiz.md",
+      "title": "Week 7 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-07-build-tools-and-components/resources.md",
+      "title": "Week 7 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/README.md",
+      "title": "Week 8 \u2014 State Management and Routing"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/challenges/challenge-01-protected-routes.md",
+      "title": "Challenge 1 \u2014 Protected Routes, Two Ways"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/challenges/challenge-02-optimistic-mutation.md",
+      "title": "Challenge 2 \u2014 Optimistic Mutation with Rollback"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/exercises/SOLUTIONS.md",
+      "title": "Exercises \u2014 Reference Solutions"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/exercises/exercise-01-state-ladder.md",
+      "title": "Exercise 1 \u2014 Walk the State Ladder"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/exercises/exercise-02-routes-and-loaders.md",
+      "title": "Exercise 2 \u2014 Routes and Loaders"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/homework.md",
+      "title": "Week 8 \u2014 Homework"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/lecture-notes/01-three-layers-of-state.md",
+      "title": "Lecture 1 \u2014 The Three Layers of State"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/lecture-notes/02-routing-with-react-router-v6.md",
+      "title": "Lecture 2 \u2014 Routing with React Router v6"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/lecture-notes/03-server-state-with-tanstack-query.md",
+      "title": "Lecture 3 \u2014 Server State with TanStack Query"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/mini-project/README.md",
+      "title": "Week 8 \u2014 Mini-Project: Crunch Library (a multi-route SPA)"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/mini-project/starter/rubric.md",
+      "title": "Mini-Project Rubric"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/quiz.md",
+      "title": "Week 8 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-08-state-management-and-routing/resources.md",
+      "title": "Week 8 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/README.md",
+      "title": "Week 9 \u2014 Performance and Web Vitals"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/challenges/challenge-01-inp-budget.md",
+      "title": "Challenge 1 \u2014 INP Under 200 ms"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/challenges/challenge-02-cls-zero.md",
+      "title": "Challenge 2 \u2014 CLS Under 0.1"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/exercises/SOLUTIONS.md",
+      "title": "Exercise Solutions \u2014 Week 9"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/exercises/exercise-01-profile-a-page.md",
+      "title": "Exercise 1 \u2014 Profile a Page in Three Tools"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/exercises/exercise-02-lazy-and-preload.md",
+      "title": "Exercise 2 \u2014 Lazy-loading, Preload, and fetchpriority"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/exercises/exercise-03-web-vitals-instrumentation.md",
+      "title": "Exercise 3 \u2014 Instrument web-vitals in a Vite project"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/homework.md",
+      "title": "Week 9 \u2014 Homework"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/lecture-notes/01-rendering-pipeline-and-the-three-vitals.md",
+      "title": "Lecture 1 \u2014 The Rendering Pipeline and the Three Vitals"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/lecture-notes/02-measure-with-devtools-lighthouse-and-web-vitals.md",
+      "title": "Lecture 2 \u2014 Measure: DevTools, Lighthouse, and web-vitals.js"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/lecture-notes/03-the-fix-menu-images-fonts-bundles-shifts.md",
+      "title": "Lecture 3 \u2014 The Fix Menu: Images, Fonts, Bundles, and Shifts"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/mini-project/README.md",
+      "title": "Week 9 \u2014 Mini-Project: The Slow-Page Audit"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/mini-project/starter/rubric.md",
+      "title": "Slow-Page Audit \u2014 Grading Rubric"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/quiz.md",
+      "title": "Week 9 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-09-performance-and-web-vitals/resources.md",
+      "title": "Week 9 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/README.md",
+      "title": "Week 10 \u2014 Authentication and Identity"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/challenges/challenge-01-refresh-rotation.md",
+      "title": "Challenge 1 \u2014 Demonstrate Refresh-Token Reuse Detection"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/challenges/challenge-02-jwks-cache.md",
+      "title": "Challenge 2 \u2014 Build a Correct JWKS Cache"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/exercises/SOLUTIONS.md",
+      "title": "Week 10 Exercise Solutions"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/exercises/exercise-01-decode-a-jwt.md",
+      "title": "Exercise 1 \u2014 Decode and Verify a JWT by Hand"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/exercises/exercise-02-pkce-by-hand.md",
+      "title": "Exercise 2 \u2014 PKCE by Hand With `curl`"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/exercises/exercise-03-protected-route.md",
+      "title": "Exercise 3 \u2014 A Protected React Route"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/homework.md",
+      "title": "Week 10 \u2014 Homework"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/lecture-notes/01-oauth-oidc-and-the-vocabulary.md",
+      "title": "Lecture 1 \u2014 OAuth, OpenID Connect, and the Vocabulary You Need"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/lecture-notes/02-pkce-jwt-and-the-auth-code-flow.md",
+      "title": "Lecture 2 \u2014 PKCE, JWT Anatomy, and the Auth-Code Flow Walked"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/lecture-notes/03-sessions-refresh-mfa-and-providers.md",
+      "title": "Lecture 3 \u2014 Sessions vs. JWTs, Refresh Rotation, MFA, and the Provider Landscape"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/mini-project/README.md",
+      "title": "Week 10 \u2014 Mini-Project: Crunch Auth, End to End"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/mini-project/starter/rubric.md",
+      "title": "Mini-Project Grading Rubric"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/quiz.md",
+      "title": "Week 10 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-10-auth-and-identity/resources.md",
+      "title": "Week 10 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/README.md",
+      "title": "Week 11 \u2014 Frontend Testing with Vitest and Playwright"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/challenges/challenge-01-msw-and-async-component.md",
+      "title": "Challenge 1 \u2014 Test an async component with MSW"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/challenges/challenge-02-visual-regression.md",
+      "title": "Challenge 2 \u2014 Visual regression with Playwright"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/exercises/SOLUTIONS.md",
+      "title": "Exercise solutions"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/exercises/exercise-01-aaa-and-first-vitest.md",
+      "title": "Exercise 1 \u2014 AAA and your first Vitest tests"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/exercises/exercise-02-component-testing.md",
+      "title": "Exercise 2 \u2014 Component testing with Testing Library"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/exercises/exercise-03-playwright-first-e2e.md",
+      "title": "Exercise 3 \u2014 Your first Playwright end-to-end test"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/homework.md",
+      "title": "Week 11 Homework"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/lecture-notes/01-the-test-pyramid-and-aaa.md",
+      "title": "Lecture 1 \u2014 The Test Pyramid, AAA, and What to Test"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/lecture-notes/02-vitest-and-testing-library.md",
+      "title": "Lecture 2 \u2014 Vitest and Testing Library"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/lecture-notes/03-playwright-fixtures-traces-and-ci.md",
+      "title": "Lecture 3 \u2014 Playwright, Fixtures, Traces, Visual Regression, and CI"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/mini-project/README.md",
+      "title": "Mini-project \u2014 A meaningful test suite for the Week 10 SPA"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/mini-project/starter/rubric.md",
+      "title": "Mini-project rubric"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/quiz.md",
+      "title": "Week 11 Quiz"
+    },
+    {
+      "path": "curriculum/week-11-testing-vitest-playwright/resources.md",
+      "title": "Week 11 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-12-capstone-production-spa/README.md",
+      "title": "Week 12 \u2014 Capstone: Production-Grade SPA, Shipped"
+    },
+    {
+      "path": "curriculum/week-12-capstone-production-spa/exercises/exercise-01-first-deploy-and-headers.md",
+      "title": "Exercise 01 \u2014 First Deploy and Security Headers"
+    },
+    {
+      "path": "curriculum/week-12-capstone-production-spa/exercises/exercise-02-routes-and-auth-against-deployed-url.md",
+      "title": "Exercise 02 \u2014 Routes and Auth Against the Deployed URL"
+    },
+    {
+      "path": "curriculum/week-12-capstone-production-spa/exercises/exercise-03-ci-gates-and-lighthouse-budget.md",
+      "title": "Exercise 03 \u2014 CI Gates and the Lighthouse Budget"
+    },
+    {
+      "path": "curriculum/week-12-capstone-production-spa/homework.md",
+      "title": "Week 12 \u2014 Homework"
+    },
+    {
+      "path": "curriculum/week-12-capstone-production-spa/lecture-notes/01-from-localhost-to-production.md",
+      "title": "Lecture Note 01 \u2014 From `localhost` to Production"
+    },
+    {
+      "path": "curriculum/week-12-capstone-production-spa/lecture-notes/02-security-headers-and-csp-in-anger.md",
+      "title": "Lecture Note 02 \u2014 Security Headers and CSP in Anger"
+    },
+    {
+      "path": "curriculum/week-12-capstone-production-spa/lecture-notes/03-ci-cd-and-the-portfolio-readme.md",
+      "title": "Lecture Note 03 \u2014 CI/CD and the Portfolio README"
+    },
+    {
+      "path": "curriculum/week-12-capstone-production-spa/quiz.md",
+      "title": "Week 12 \u2014 Final Exam (Track-Wide Review)"
+    },
+    {
+      "path": "curriculum/week-12-capstone-production-spa/resources.md",
+      "title": "Week 12 \u2014 Resources"
+    },
+    {
+      "path": "past-sessions/C8-Spring2025/C8-Week0.md",
+      "title": "Week 0: Introduction to Web Development \ud83c\udf10"
+    },
+    {
+      "path": "past-sessions/C8-Spring2025/C8-Week1.md",
+      "title": "Week 1: Understanding HTML Elements and Attributes \ud83c\udf0d"
+    },
+    {
+      "path": "past-sessions/C8-Spring2025/C8-Week10.md",
+      "title": "\ud83d\ude80 Welcome to Week #10 of Web Development at CODE.CRUNCH!"
+    },
+    {
+      "path": "past-sessions/C8-Spring2025/C8-Week11.md",
+      "title": "\ud83c\udf89 Week #11: Demo Day"
+    },
+    {
+      "path": "past-sessions/C8-Spring2025/C8-Week2.md",
+      "title": "Week 2: Introduction to CSS Syntax and Selectors"
+    },
+    {
+      "path": "past-sessions/C8-Spring2025/C8-Week3.md",
+      "title": "Week 3 - Understanding the Box Model and Building Responsive Layouts"
+    },
+    {
+      "path": "past-sessions/C8-Spring2025/C8-Week4.md",
+      "title": "\ud83d\ude80 Welcome to Week #4 of Web Development at CODE.CRUNCH!"
+    },
+    {
+      "path": "past-sessions/C8-Spring2025/C8-Week5.md",
+      "title": "C8 Week5"
+    },
+    {
+      "path": "past-sessions/C8-Spring2025/C8-Week6.md",
+      "title": "\ud83d\udda5\ufe0f Welcome to Week #6 of Web Development at CODE.CRUNCH!"
+    },
+    {
+      "path": "past-sessions/C8-Spring2025/C8-Week7.md",
+      "title": "\ud83d\ude80 Welcome to Week #7 of Web Development at CODE.CRUNCH!"
+    },
+    {
+      "path": "past-sessions/C8-Spring2025/C8-Week8.md",
+      "title": "\ud83d\ude80 Welcome to Week #8 of Web Development at CODE.CRUNCH!"
+    },
+    {
+      "path": "past-sessions/C8-Spring2025/C8-Week9.md",
+      "title": "\ud83d\ude80 Welcome to Week #9 of Web Development at CODE.CRUNCH!"
+    },
+    {
+      "path": "projects/VSCodeProjectSetup.md",
+      "title": "Setting up a Project with HTML, CSS, and JavaScript on VSCode"
+    }
+  ]
+}
