@@ -100,7 +100,7 @@ Flexbox is a powerful layout tool that allows you to easily create flexible, res
 ---
 
 ## 📅 Stay Connected:
-- **GitHub**: [CODE-CRUNCH-LABS-WEB-DEV](https://github.com/CODE-CRUNCH-CLUB/C8-CRUNCH-LABS-WEB-DEV)
+- **GitHub**: [CODE-CRUNCH-LABS-WEB-DEV](https://github.com/CODECRUNCHWORLDWIDE/C8-CRUNCH-LABS-WEB-DEV)
 - **Schedule**: Check the **Discord “Schedule” Channel** for upcoming sessions.
 - **RSVP**: [lu.ma/CODECRUNCH](https://lu.ma/CODECRUNCH)
 

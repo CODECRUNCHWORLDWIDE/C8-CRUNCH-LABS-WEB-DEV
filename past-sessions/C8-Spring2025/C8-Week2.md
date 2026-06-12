@@ -207,7 +207,7 @@ Feel free to bring any questions you have to the session.
 ---
 
 ## Resources:
-- **GitHub**: [CODE-CRUNCH-WEB-DEV](https://github.com/CODE-CRUNCH-CLUB/C8-CRUNCH-LABS-WEB-DEV)
+- **GitHub**: [CODE-CRUNCH-WEB-DEV](https://github.com/CODECRUNCHWORLDWIDE/C8-CRUNCH-LABS-WEB-DEV)
 - **Schedule**: Check the schedule on Discord in the “Schedule” Channel.
 - **RSVP**: [RSVP for upcoming sessions](https://lu.ma/CODECRUNCH)
 - **Feedback**: We’d love your feedback to help us improve. [Submit feedback here](https://go.fiu.edu/codecrunch)

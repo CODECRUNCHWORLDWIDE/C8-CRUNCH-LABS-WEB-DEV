@@ -195,6 +195,6 @@ Check our schedule on Discord’s “Schedule” Channel. Don’t forget to RSVP
 
 **Stay connected with CODE.CRUNCH**  
 - [CODE.CRUNCH Linktree](https://linktr.ee/CODE.CRUNCH)
-- [Our GitHub](https://github.com/CODE-CRUNCH-CLUB/C8-CRUNCH-LABS-WEB-DEV)
+- [Our GitHub](https://github.com/CODECRUNCHWORLDWIDE/C8-CRUNCH-LABS-WEB-DEV)
 
 Happy coding, and continue mastering your layout skills! 🎉
